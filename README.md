@@ -1,6 +1,6 @@
 # hexo-bitpay
 
-BitPay theme for [Hexo](http://zespia.tw/hexo) implemented with [Jade](http://jade-lang.com/) and [Less](http://lesscss.org/).
+BitPay theme for [Hexo](http://zespia.tw/hexo) implemented with [Jade](http://jade-lang.com/) and [Less](http://lesscss.org/).  Originally forked from [hexo-jade-barebone](https://github.com/widatama/hexo-jade-barebone) – add this as your upstream via `git remote add upstream git@github.com:widatama/hexo-jade-barebone.git` if you need to pull in updates.
 
 ## Installation
 
