@@ -1,7 +1,7 @@
 doctype html
 block vars
   - var bodyclass = null;
-html(lang='en')
+html(lang="en")
   head
     include _partial/head
   body(class=bodyclass)
@@ -9,10 +9,11 @@ html(lang='en')
       div#masthead
         block header
           h1#site-title
-            a(href=config.root)= config.title
-          p#site-slogan= config.subtitle
+            a(href=config.root) #{config.title}
+          p#site-slogan #{config.subtitle}
           
     section#content
-      block content        
+      block content
+
     footer#page-footer
       include _partial/footer

@@ -8,7 +8,7 @@ block content
       li
         article
           h2
-            a(href=config.root + article.path)= article.title
+            a(href=config.root + article.path) #{article.title}
           div.meta
             include _partial/article_meta
 
